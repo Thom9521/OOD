@@ -13,12 +13,7 @@ public class TestBook {
         Book javaDummy = new Book("Java for Dummy", authors, 19.99, 99);
         System.out.println(javaDummy);  // toString()
 
-        // Construct an author instance
-        Author ahTeck = new Author("Tan Ah Teck", "ahteck@nowhere.com", 'm');
-        System.out.println(ahTeck);  // Author's toString()
 
-        Book dummyBook = new Book("Java for dummy", authors, 19.95, 99);  // Test Book's Constructor
-        System.out.println(dummyBook);  // Test Book's toString()
 
 /*
 // Test Getters and Setters

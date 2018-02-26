@@ -10,7 +10,7 @@ public class Book {
 
     // Default constructor, with arguements.
     // Constructor to construct a new instance of Author with the given name, email and gender.
-    public Book(String name, Author[] authors, double price) {
+    public Book(String name, thom9521.Author[] authors, double price) {
 
         this.name = name;
         this.authors= authors;
@@ -28,7 +28,7 @@ public class Book {
         return this.name;
     }
 
-    public Author[] getAuthors() {
+    public thom9521.Author[] getAuthors() {
         return this.authors;
     }
 
@@ -53,7 +53,7 @@ public class Book {
                 ", qty = " + qty;
     }
 
-    public Author[] getAuthorNames(){
+    public thom9521.Author[] getAuthorNames(){
         return this.authors;
     }
 }
